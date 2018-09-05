@@ -44,5 +44,18 @@ public class Test {
 		doraemon.talk();
 		doraemon.walk();
 		doraemon.run();
+
+		Person taro2=new Person();
+		taro2.name="taro";
+		taro2.age=18;
+		System.out.println(taro2.name);
+		System.out.println(taro2.age);
+
+		Person jiro=new Person("jiro",20);
+		System.out.println(jiro.name);
+		System.out.println(jiro.age);
+
+		Person saburo=new Person(String name);
+
 	}
 }
