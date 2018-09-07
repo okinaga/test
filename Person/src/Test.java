@@ -45,6 +45,7 @@ public class Test {
 		doraemon.walk();
 		doraemon.run();
 
+//		コンストラクタ
 		Person taro2=new Person();
 		taro2.name="taro";
 		taro2.age=18;
@@ -55,7 +56,20 @@ public class Test {
 		System.out.println(jiro.name);
 		System.out.println(jiro.age);
 
-		Person saburo=new Person(String name);
+		Person saburo=new Person("saburo");
+		System.out.println(saburo.name);
+		System.out.println(saburo.age);
+
+		Person nanasi=new Person(25);
+		System.out.println(nanasi.name);
+		System.out.println(nanasi.age);
+
+		Person hanako=new Person(17,"hanako");
+		System.out.println(hanako.name);
+		System.out.println(hanako.age);
+
+//		カプセル化
+		
 
 	}
 }
