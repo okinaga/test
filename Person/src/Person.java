@@ -5,8 +5,8 @@ public class Person {
 	public String id=null;
 	public String password=null;
 
-	private String name=null;
-	private int age=0;
+	public String name=null;
+	public int age=0;
 
 //	カプセル化
 	public String getName(){
